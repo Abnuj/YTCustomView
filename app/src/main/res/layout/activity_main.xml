@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/colorText"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Value" />
+
+    <com.abnuj.ytcustomview.ColorMixer
+        android:id="@+id/mixer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:initialColor="#FF0000"
+        />
+
+    <com.abnuj.ytcustomview.ColorMixer
+        android:id="@+id/mixer2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:initialColor="#FF0000"
+        />
+
+
+    <com.abnuj.ytcustomview.ColorMixer
+        android:id="@+id/mixer3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:initialColor="#FF0000"
+        />
+</LinearLayout>
